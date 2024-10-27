@@ -109,13 +109,15 @@ footer {
   
 
 }
-
+/*
 .wrap-hero-section{
   /* max-width: 600px; */
   /* color: #fff;
-  padding: 15%;
-  overflow: hidden; */
-} */ */
+  /*padding: 15%;*/
+ /* overflow: hidden; */
+/*} **/
+
+
 
 /** Logo Brand Section **/
 .secetion{
@@ -205,9 +207,9 @@ section.two-column-section.form{
 
     padding: 0.25rem;
     justify-content: space-around;
-    background: #ffffff;
+    background: #fafaff;
     font: 1em sans-serif;
-    color: hsl(271, 97%, 12%);
+    color: hsl(270, 29%, 95%);
     font-size: 1.2rem;
     padding: 0.005rem;
 
