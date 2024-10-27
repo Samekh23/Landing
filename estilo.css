@@ -16,6 +16,8 @@ body {
 
 /** Estilos Generales **/
 
+
+
 html *{
   margin: 0;
   padding: 0;
@@ -86,7 +88,7 @@ footer {
 
 .logo-header{
   justify-content: left ;
-  max-width: 180px;
+  max-width: 150px;
   height: 99%;
   width: 97%;
 }
@@ -109,7 +111,7 @@ footer {
 }
 
 .wrap-hero-section{
-  max-width: 600px;
+  /* max-width: 600px; */
   color: #fff;
   padding: 15%;
   overflow: hidden;
@@ -124,12 +126,12 @@ footer {
   padding: 2rem 0;
 }
 
-.wrap-logos-section{
+/* .wrap-logos-section{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .logo-brand{
   width: 200px;
