@@ -155,7 +155,6 @@ footer {
 .item-productos-section {
   text-align: center; /* Centra el texto bajo cada imagen */
   margin-bottom: 1rem;
-  color: #f3f5f7;
 }
 
 .item-productos-section img {
@@ -171,17 +170,30 @@ footer {
 .item-productos-section p {
   margin-top: 0.5rem;
   font-size: 1rem;
-  color: #333;
+  color: #f6f0f0;
 }
-
-
 
 @keyframes fadeInUp {
-  to {
+ to {
       opacity: 1; /* Hacer visible */
-      transform: translateY(0); /* Volver a la posición original */
-  }
+      transform: translateY(0); Volver a la posición original */
 }
+} 
+
+
+.section-folletos {
+  background-color:rgba(3, 25, 51, 0.735); 
+  color: rgb(231, 231, 238); /* Texto azul */
+}
+
+.section-folletos h3,
+.section-folletos p {
+  color: rgb(239, 239, 248); 
+}
+
+
+
+
 
 
 /** Two Columns Section **/
