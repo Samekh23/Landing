@@ -1,29 +1,14 @@
 :root{
-  --main-c:#0e013a;
+  --main-c:#fdd72d;
   --border-r:.2rem;
 }
-
-*{
-	padding: 0;
-	margin: 0;
-	/* box-sizing: border-box; */
-}
-
-body {
-	background: #1D202B;
-	color: #fff;
-	font-family: 'Roboto', sans-serif;
 
 /** Estilos Generales **/
 
 html *{
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  font-family: 'Segoe UI','Times New Roman', Times, serif,
-  Arial, Helvetica, Georgia, Times, 'Times New Roman', serif Tahoma,
-  Verdana, sans-serif, Impact, 'Arial Narrow Bold', sans-serif,
-  'Franklin Gothic Medium', 'Arial Narrow', Arial;
+ margin: 0; 
+ padding: 0;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p{
@@ -61,58 +46,39 @@ h3{
   font-size: 2.2rem;
 }
 
-
-footer {
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-
 /** Header **/
 
 .header-landing{
-    display: flex;
-  /* justify-content: center; */
-    padding: 0.25rem;
-    justify-content: space-around;
-    background: #faf9fc;
-    font: 1em sans-serif;
-    color: hsl(271, 97%, 12%);
-    font-size: 1.2rem;
-    padding: 0.005rem;
+  display: flex;
+  justify-content: center;
+  background: #f2f2f2;
+  padding: 0.25rem;
 }
 
 .logo-header{
-  justify-content: left ;
-  max-width: 180px;
-  height: 99%;
-  width: 97%;
+  max-width: 35px;
+  height: 100%;
+  width: 100%;
 }
 
 /** Hero Section **/
 
 .hero-section{
   height: 90vh;
-  /* background: url(img/descarga.jpeg); */
+  background: url(img/img-hero-agencia.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(4, 21, 83, 0.742);
+  background-color: rgba(106, 141, 163, 0.7);
   background-blend-mode: multiply;
   display: flex;
   align-items: center;
-  position: relative;
-  
-
 }
 
 .wrap-hero-section{
   max-width: 600px;
   color: #fff;
   padding: 15%;
-  overflow: hidden;
 }
 
 /** Logo Brand Section **/
@@ -145,19 +111,19 @@ footer {
   margin: 3rem 1rem;
 }
 
-/** Familia de Productos **/
+/** Servicios Section **/
 
-.wrap-productos-section{
+.wrap-servicios-section{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.item-productos-section{
+.item-servicios-section{
   padding: 1rem;
 }
 
-.item-productos-section img{
+.item-servicios-section img{
   width: 300px;
   height: 225px;
 }
@@ -190,7 +156,7 @@ footer {
 /** Form Section **/
 
 section.two-column-section.form{
-  background-color: #150d53;
+  background-color: #f2f2f2;
   padding: 3rem 0;
 }
 
@@ -198,17 +164,8 @@ section.two-column-section.form{
   display: flex;
   width: 100%;
   line-height: 1.75rem;
-  border: 1.5px solid #070142;
+  border: 1.5px solid #fff;
   border-radius: var(--border-r);
-
-    padding: 0.25rem;
-    justify-content: space-around;
-    background: #ffffff;
-    font: 1em sans-serif;
-    color: hsl(271, 97%, 12%);
-    font-size: 1.2rem;
-    padding: 0.005rem;
-
 }
 
 .form textarea{
@@ -238,9 +195,9 @@ input[type="submit"]{
 }
 
 .social-logo{
-  max-width: 50px;
-  width: 50%;
-  padding: 1%;
+  max-width: 75px;
+  width: 100%;
+  padding: 1rem;
 }
 
 .wrap-menu-footer-section ul li{
