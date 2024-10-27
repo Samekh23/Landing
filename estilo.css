@@ -1,0 +1,254 @@
+:root{
+  --main-c:#0e013a;
+  --border-r:.2rem;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	/* box-sizing: border-box; */
+}
+
+body {
+	background: #1D202B;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+
+/** Estilos Generales **/
+
+html *{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI','Times New Roman', Times, serif,
+  Arial, Helvetica, Georgia, Times, 'Times New Roman', serif Tahoma,
+  Verdana, sans-serif, Impact, 'Arial Narrow Bold', sans-serif,
+  'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+p{
+  font-size: 1.1rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul, li{
+  list-style: none;
+}
+
+.wrap-cta{
+  padding: 1.5rem 0;
+}
+
+.cta-a{
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: var(--main-c);
+  padding: .5rem 1rem;
+  border-radius: var(--border-r);
+}
+
+h1{
+  font-size: 2.8rem;
+}
+h2{
+  font-size: 2.5rem;
+}
+h3{
+  font-size: 2.2rem;
+}
+
+
+footer {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/** Header **/
+
+.header-landing{
+    display: flex;
+  /* justify-content: center; */
+    padding: 0.25rem;
+    justify-content: space-around;
+    background: #faf9fc;
+    font: 1em sans-serif;
+    color: hsl(271, 97%, 12%);
+    font-size: 1.2rem;
+    padding: 0.005rem;
+}
+
+.logo-header{
+  justify-content: left ;
+  max-width: 180px;
+  height: 99%;
+  width: 97%;
+}
+
+/** Hero Section **/
+
+.jumbo-section{
+  height: 90vh;
+  /* background: url(img/descarga.jpeg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(4, 21, 83, 0.742);
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  position: relative;
+  
+
+}
+
+.wrap-jumbo-section{
+  max-width: 600px;
+  color: #fff;
+  padding: 15%;
+  overflow: hidden;
+}
+
+/** Logo Brand Section **/
+.secetion{
+  margin: 5rem 0;
+}
+
+.section h2{
+  padding: 2rem 0;
+}
+
+.wrap-logos-section{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-brand{
+  width: 200px;
+  padding: 1rem 2rem;
+  filter: grayscale(1);
+}
+
+/** Wrap Title **/
+
+.wrap-title-section{
+  display: flex;
+  justify-content: center;
+  margin: 3rem 1rem;
+}
+
+/** Familia de Productos **/
+
+.wrap-productos-section{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.item-productos-section{
+  padding: 1rem;
+}
+
+.item-productos-section img{
+  width: 300px;
+  height: 225px;
+}
+
+/** Two Columns Section **/
+
+.wrap-two-column{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrap-img_two-column{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.wrap-text-column h3{
+  padding: 2rem 0;
+}
+
+.wrap-text-column p{
+  padding-bottom: 1rem;
+}
+
+/** Form Section **/
+
+section.two-column-section.form{
+  background-color: #150d53;
+  padding: 3rem 0;
+}
+
+.form input, .form textarea{
+  display: flex;
+  width: 100%;
+  line-height: 1.75rem;
+  border: 1.5px solid #070142;
+  border-radius: var(--border-r);
+
+    padding: 0.25rem;
+    justify-content: space-around;
+    background: #ffffff;
+    font: 1em sans-serif;
+    color: hsl(271, 97%, 12%);
+    font-size: 1.2rem;
+    padding: 0.005rem;
+
+}
+
+.form textarea{
+  min-height: 200px;
+}
+
+input[type="submit"]{
+  border: 0;
+  display: inline;
+  cursor: pointer;
+}
+
+/** Footer **/
+
+.footer-section{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-footer-section{
+  padding: 1rem 0;
+}
+
+.wrap-social-logos ul, .wrap-menu-footer-section ul{
+  display: flex;
+  justify-content: center;
+}
+
+.social-logo{
+  max-width: 50px;
+  width: 50%;
+  padding: 1%;
+}
+
+.wrap-menu-footer-section ul li{
+  font-size: 1.1rem;
+  padding: 1.5rem;
+}
+
+.footer-creds{
+  display: flex;
+  justify-content: center;
+}
