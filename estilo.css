@@ -95,10 +95,10 @@ footer {
 
 /** Hero Section **/
 
-.hero-section{
+/* .hero-section{
   height: 90vh;
   /* background: url(img/descarga.jpeg); */
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(4, 21, 83, 0.742);
@@ -112,10 +112,10 @@ footer {
 
 .wrap-hero-section{
   /* max-width: 600px; */
-  color: #fff;
+  /* color: #fff;
   padding: 15%;
-  overflow: hidden;
-}
+  overflow: hidden; */
+} */ */
 
 /** Logo Brand Section **/
 .secetion{
