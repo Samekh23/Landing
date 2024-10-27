@@ -93,30 +93,6 @@ footer {
   width: 97%;
 }
 
-/** Hero Section **/
-
-/* .hero-section{
-  height: 90vh;
-  /* background: url(img/descarga.jpeg); */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgba(4, 21, 83, 0.742);
-  background-blend-mode: multiply;
-  display: flex;
-  align-items: center;
-  position: relative;
-  
-
-}
-/*
-.wrap-hero-section{
-  /* max-width: 600px; */
-  /* color: #fff;
-  /*padding: 15%;*/
- /* overflow: hidden; */
-/*} **/
-
 
 
 /** Logo Brand Section **/
@@ -128,12 +104,12 @@ footer {
   padding: 2rem 0;
 }
 
-/* .wrap-logos-section{
+.wrap-logos-section{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-} */
+}
 
 .logo-brand{
   width: 200px;
@@ -198,7 +174,7 @@ footer {
 /** Form Section **/
 
 section.two-column-section.form{
-  background-color: #f2f2f2;
+  background-color: #12023a;
   padding: 0;
 }
 
@@ -207,13 +183,15 @@ section.two-column-section.form{
   width: 100%;
   line-height: 1.75rem;
   font: 1em sans-serif;
-    color: hsl(270, 33%, 96%);
+  color: hsl(278, 24%, 93%);
   border: 1.5px solid #fff;
   border-radius: var(--border-r);
 }
 
 .form textarea{
   min-height: 200px;
+  font: 1em sans-serif;
+  color: hsl(278, 24%, 93%);
 }
 
 input[type="submit"]{
@@ -232,7 +210,7 @@ input[type="submit"]{
 }
 
 .menu-footer-section{
-  padding: 1rem 0;
+  padding: 0;
 }
 
 .wrap-social-logos ul, .wrap-menu-footer-section ul{
