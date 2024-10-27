@@ -4,17 +4,12 @@
   <meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
   rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" href="estilo.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <title>Landing de Negocio</title>
+    <title>Landing de Negocio</title>
   
   <style>
     .jumbotron {
@@ -23,17 +18,9 @@
         border-radius: 0.5rem; /* Bordes redondeados */
     }
 
-    .wrap-hero-section {
-        max-width: 100%; /* Ancho máximo del contenido */
-        margin: auto; /* Centrar el contenido */
-    }
-
-    .wrap-cta {
-        margin-top: 1.5rem; /* Espaciado superior para el botón */
-    }
-
     h1 {
         color: #f4f6f8; /* Color del encabezado */
+        text-align: justify; /* Justifica el texto */
     }
 
     p {
@@ -42,54 +29,119 @@
     }
 
     .cta-a {
-        text-decoration: none; /* Sin subrayado */
-        color: white; /* Color del texto del enlace */
-        background-color: #032e5c; /* Color de fondo del botón */
-        padding: 0.5rem 1rem; /* Espaciado del botón */
-        border-radius: 0.25rem; /* Bordes redondeados del botón */
-    }
-
-    .cta-a:hover {
-        background-color: #0056b3; /* Color de fondo al pasar el mouse */
-    }
+        text-decoration: none; 
+        color: white; 
+        background-color: #3a6a9e; 
+        padding: 0.5rem 1rem; 
+        border-radius: 0.25rem; 
+    } 
 
     .jumbotron img {
-        max-width: 130%; /* Imagen responsiva */
-        height: auto; /* Mantener la relación de aspecto */
-        border-radius: 0.5rem; /* Bordes redondeados para la imagen */
+        max-width: 130%; 
+        height: auto; 
+        border-radius: 0.5rem; 
     }
-</style>
 
-  
+    .jumbotron-section {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 2rem; 
+}
+
+.wrap-jumbotron-section {
+    display: flex; /* Usar flexbox para los hijos */
+    flex-direction: row; /* Disposición en fila */
+    max-width: 1200px; /* Ancho máximo */
+    margin: auto; /* Centrar el contenedor */
+}
+
+.col-md-6 {
+    flex: 1; /* Hacer que cada columna ocupe el mismo espacio */
+    padding: 1rem; /* Espaciado interno */
+}
+
+.jumbotron-section {
+  display: flex;
+  flex-direction: column; /* Apila los elementos verticalmente */
+  align-items: center; /* Centrar el contenido */
+  text-align: center; /* Centrar el texto del título */
+  padding: 2rem;
+}
+
+.jumbotron-section h1 {
+  color: #f4f6f8;
+  justify-content: center;
+}
+
+.jumbotron-section p {
+  color: #f3f5f7;
+  font-size: 1.1rem;
+  text-align: justify; /* Justifica el texto */
+  max-width: 600px; /* Limita el ancho del párrafo */
+}
+
+.jumbotron-section img {
+  max-width: 100%; /* Ajustar la imagen al contenedor */
+  /* height: 100%;
+  width: 100%; */
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  justify-content: right ;
+}
+
+</style>
 </head>
 
 <body>
   
-  <header class="header-landing">
-    <div class="wrap-logo">
-      <img src="/img/sta.png" alt="" class="logo-header">
-    </div>
-
-    <div class="menu-footer-section">
-      <div class="wrap-menu-footer-section">
-        <ul> 
-
-         <li><a href=""></a>Inicio</li>
-          <li><a href=""></a>Quienes Somos</li>
-          <li><a href=""></a>Productos</li>
-          <li><a href=""></a>Blog</li>
-          <li><a href=""></a>Contacto</li>
-          <li><a href=""></a>Registrarse</li>
-          <li><a href=""></a>Iniciar Sesión</li>
-
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">    
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="/img/stanh.png" alt="" class="logo-header">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">        
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link">Quienes Somos</a></li>
+          <li class="nav-item"><a class="nav-link">Productos</a></li>
+          <li class="nav-item"><a class="nav-link">Blog</a></li>
+          <li class="nav-item"><a class="nav-link">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link">Registrarse</a></li>
+          <li class="nav-item"><a class="nav-link">Iniciar Sesión</a></li>          
         </ul>
-      </div> 
+      </div>
+    </div>      
+  </nav> 
+  
+  <main class="container">  
+    <section class="jumbotron-section">
+      <div class="wrap-jumbotron-section d-flex align-items-center">
+        
+        <div class="col-md-6">
+          <img src="/img/mst.jpg" alt="Descripción de la imagen" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h1 class="display-6">Comprar productos Stan con envío a domicilio ¡ahora es posible!</h1>
+                    <br>
+          <p class="lead">
+            Los productos Stan se pueden comprar en el sitio web de Stan México. Stan también ofrece la posibilidad de vender sus productos por catálogo,
+            con la oportunidad de ganar comisiones y premios. 
+            <br><br>
+            Los beneficios de ser consejera Stan 
+            incluyen: Comisiones, Acceso a ofertas exclusivas, Capacitaciones, Premios únicos en cada campaña.
+        </p>
+          <br>
+          <div class="wrap-cta">
+            <a href="/" class="cta-a">Suscribirse</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </div>
-  </header>
 
-
-  <div class="jumbotron">
+  <!-- <div class="jumbotron">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -138,8 +190,7 @@
             </div>
         </div>
     </div>
-</div>
-
+</div> -->
 
 
   <section class="section productos-section">
@@ -204,16 +255,14 @@
     </div>
   </section>
 
-  <section class="section two-column-section">
+  
 
+  <section class="section two-column-section">
     <div class="wrap-title-section">
       <h2>Folletos</h2>
     </div>
 
     <div class="wrap-two-column">
-      <div class="wrap-img_two-column">
-        <img src="img/catal.jpg" alt="">
-      </div>
 
       <div class="wrap-img_two-column">
         <div class="wrap-text-column">
@@ -225,19 +274,20 @@
             <a href="/" class="cta-a">Descargar</a>
           </div>
         </div>
-
+        </div>
+      <div class="wrap-img_two-column">
+        <img src="img/catal.jpg" alt="">
       </div>
     </div>
   </section>
 
-  <section class="section two-column-section form">
+  <!-- /*Contacto*/ -->
 
+  <section class="section two-column-section form">
     <div class="wrap-title-section">
       <h2>Contactanos</h2>
     </div>
-
     <div class="wrap-two-column">
-
       <div class="wrap-img_two-column">
         <div class="wrap-text-column">
           <h3>Registra Tus Datos</h3>
@@ -318,8 +368,32 @@
         <p>©copytight 2024 - Todos los derechos reservados. STM</p>
       </div>
     </div>
-
   </footer>
+  </main>
+  
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const items = document.querySelectorAll('.item-productos-section');
+        items.forEach((item, index) => {
+            item.style.animationDelay = `${index * 0.1}s`; // Retraso para cada elemento
+            item.style.opacity = 1; // Hacer visible
+        });
+    });
+    </script>
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+          });
+      });
+  });
+  </script>
+
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

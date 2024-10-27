@@ -145,6 +145,20 @@ footer {
   height: 225px;
 }
 
+.item-productos-section {
+  opacity: 0; /* Oculto inicialmente */
+  transform: translateY(20px); /* Desplazado hacia abajo */
+  animation: fadeInUp 0.5s forwards; /* Aplicar animación */
+}
+
+@keyframes fadeInUp {
+  to {
+      opacity: 1; /* Hacer visible */
+      transform: translateY(0); /* Volver a la posición original */
+  }
+}
+
+
 /** Two Columns Section **/
 
 .wrap-two-column{
@@ -174,7 +188,7 @@ footer {
 /** Form Section **/
 
 section.two-column-section.form{
-  background-color: #12023a;
+  background-color: #011a33;
   padding: 0;
 }
 
